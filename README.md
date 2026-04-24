@@ -1,14 +1,14 @@
-# Altmetric visibility across access pathways and citation relationships in Cuban social sciences
+ Altmetric visibility across access pathways and citation relationships in Cuban social sciences
 
-## Description
+ Description
 
 This repository contains the code, processed outputs, and technical documentation used to examine the relationship between open access pathways, altmetric attention, and citation patterns in Cuban social sciences during the period 2020–2024.
 
 The repository was prepared to support reproducibility, code review, public archiving, and formal citation in connection with the research article:
 
-**Altmetric visibility across access pathways and citation relationships in Cuban social sciences: methodological insights from an underrepresented research system**
+Altmetric visibility across access pathways and citation relationships in Cuban social sciences: methodological insights from an underrepresented research system
 
-## Repository objective
+ Repository objective
 
 The repository provides a structured and reproducible workflow for:
 
@@ -20,7 +20,7 @@ The repository provides a structured and reproducible workflow for:
 - identifying thematic selectivity in observable altmetric attention;
 - generating the figures and tabular outputs used in the manuscript.
 
-## Repository structure
+ Repository structure
 
 ```text
 altmetric-visibility-cuban-social-sciences/
@@ -48,7 +48,7 @@ altmetric-visibility-cuban-social-sciences/
 └── tests/
 ```
 
-### Main folders
+ Main folders
 
 - `data/raw/`: original input files used by the workflow.
 - `data/processed/`: cleaned and derived intermediate datasets.
@@ -59,9 +59,9 @@ altmetric-visibility-cuban-social-sciences/
 - `notebooks/`: optional exploratory or validation notebooks.
 - `tests/`: minimal validation scripts.
 
-## Software requirements
+ Software requirements
 
-The workflow was reconstructed in **Python 3.11**.
+The workflow was reconstructed in Python 3.11.
 
 Main packages:
 
@@ -73,47 +73,47 @@ Main packages:
 
 See `requirements.txt` for the software environment used in the reproducible workflow.
 
-## Installation
+ Installation
 
-### 1. Clone the repository
+ 1. Clone the repository
 
 ```bash
-git clone https://github.com/<USERNAME>/<REPOSITORY>.git
-cd <REPOSITORY>
+git clone (https://github.com/informabaracoa-2021/altmetric-visibility-cuban-social-sciences.git)
+cd (https://github.com/informabaracoa-2021/altmetric-visibility-cuban-social-sciences)
 ```
 
-### 2. Create and activate a virtual environment
+ 2. Create and activate a virtual environment
 
 ```bash
 python -m venv .venv
 ```
 
-#### Linux / macOS
+ Linux / macOS
 
 ```bash
 source .venv/bin/activate
 ```
 
-#### Windows
+ Windows
 
 ```bash
 .venv\Scripts\activate
 ```
 
-### 3. Install dependencies
+ 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Input data
+ Input data
 
 The workflow assumes the following input files are available in `data/raw/`:
 
 - `Produccion_cientifica_Ciencias_Sociales_Cuba_2020_2024.xlsx`
 - `estadisticas_altmetricas_cuba_2020_2024.xlsx`
 
-### Data availability note
+ Data availability note
 
 This repository can include:
 - code,
@@ -122,7 +122,7 @@ This repository can include:
 
 Inclusion of raw data depends on permissions, licensing conditions, and journal or repository policies. If raw source files cannot be redistributed, they should be replaced by metadata records or instructions for controlled access.
 
-## Recommended execution order
+ Recommended execution order
 
 The full workflow can be executed with:
 
@@ -143,39 +143,39 @@ Equivalent manual execution order:
 9. `scripts/09_plot_thematic_distribution_attention.py`
 10. `scripts/10_build_altmetric_summary_table.py`
 
-## Script overview
+ Script overview
 
-### `01_load_and_validate_corpus.py`
+ `01_load_and_validate_corpus.py`
 Loads the main corpus, validates required fields, derives technical variables used throughout the workflow, and exports a cleaned analytical version.
 
-### `02_build_observability_table_and_figure.py`
+ `02_build_observability_table_and_figure.py`
 Builds the annual analytical-base table and the observability figure showing total publications, DOI availability, and altmetric attention.
 
-### `03_summarize_altmetric_platforms.py`
+ `03_summarize_altmetric_platforms.py`
 Computes platform-level coverage, total volume, conditional intensity, exclusivity, and descriptive summary statistics.
 
-### `04_plot_platform_ecology.py`
+ `04_plot_platform_ecology.py`
 Generates the main platform ecology figure in Spanish and English.
 
-### `05_plot_oa_routes_doi_coverage.py`
+ `05_plot_oa_routes_doi_coverage.py`
 Builds the figure showing open access route distribution and DOI coverage by route.
 
-### `06_build_oa_routes_visibility_table.py`
+ `06_build_oa_routes_visibility_table.py`
 Computes route-level visibility and citation indicators for the DOI subset.
 
-### `07_render_oa_routes_visibility_table.py`
+ `07_render_oa_routes_visibility_table.py`
 Renders the open access route comparison table as a publication-ready visual table in Spanish and English.
 
-### `08_plot_aas_citation_relationship.py`
+ `08_plot_aas_citation_relationship.py`
 Computes Spearman correlation, percentile-90 quadrants, and the figure comparing AAS and citations.
 
-### `09_plot_thematic_distribution_attention.py`
+ `09_plot_thematic_distribution_attention.py`
 Builds the thematic comparison dataset and the dumbbell plot comparing the full corpus and the subset with altmetric attention.
 
-### `10_build_altmetric_summary_table.py`
+ `10_build_altmetric_summary_table.py`
 Renders the comparative summary table of altmetric indicators in Spanish and English.
 
-## Link between scripts and manuscript outputs
+ Link between scripts and manuscript outputs
 
 | Script | Main output | Manuscript section |
 |---|---|---|
@@ -191,7 +191,7 @@ Renders the comparative summary table of altmetric indicators in Spanish and Eng
 | 10 | Altmetric summary table | Results 3.2 |
 | run_pipeline.py | Sequential execution wrapper | Full workflow |
 
-## Reproducibility notes
+ Reproducibility notes
 
 - The workflow uses relative paths only.
 - Derived variables are generated explicitly from the validated corpus.
@@ -199,7 +199,7 @@ Renders the comparative summary table of altmetric indicators in Spanish and Eng
 - Some scripts were reconstructed from the analytical workflow and visual outputs consolidated during manuscript preparation.
 - Intermediate products are exported as CSV whenever possible to support auditability and downstream reuse.
 
-## Included and non-included materials
+ Included and non-included materials
 
 Included:
 - curated scripts;
@@ -212,7 +212,7 @@ Potentially not included:
 - provider-side API credentials;
 - manually inspected exploratory drafts not retained in the final analytical workflow.
 
-## Citation
+ Citation
 
 If you use this repository, please cite the archived release indicated in `CITATION.cff`.
 
@@ -220,7 +220,7 @@ Example placeholder:
 
 > Ortiz Núñez, R., & Santa Álvarez, J. S. (2026). *Altmetric visibility across access pathways and citation relationships in Cuban social sciences* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/xx.xxxx/zenodo.xxxxxxx
 
-## License
+ License
 
 This repository is released under the license specified in `LICENSE`.
 
