@@ -11,7 +11,7 @@ version: "1.0.0"
 date-released: "2026-04-22"
 repository-code: "https://github.com/informabaracoa-2021/altmetric-visibility-cuban-social-sciences"
 url: "https://github.com/informabaracoa-2021/altmetric-visibility-cuban-social-sciences"
-doi: "10.5281/zenodo.19719267"
+doi: "10.5281/zenodo.19719266"
 license: "MIT"
 preferred-citation:
   type: software
@@ -25,4 +25,4 @@ preferred-citation:
   date-released: "2026-04-22"
   repository-code: "https://github.com/informabaracoa-2021/altmetric-visibility-cuban-social-sciences"
   url: "https://github.com/informabaracoa-2021/altmetric-visibility-cuban-social-sciences"
-  doi: "10.5281/zenodo.19719267"
+  doi: "10.5281/zenodo.19719266"
