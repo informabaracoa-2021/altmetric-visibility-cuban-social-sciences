@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Altmetric visibility across access pathways and citation relationships in Cuban social sciences"
+message: "If you use this repository, please cite the archived version indicated below."
+type: software
+authors:
+  - family-names: "Ortiz Núñez"
+    given-names: "Roelvis"
+  - family-names: "Santa Álvarez"
+    given-names: "J. S."
+version: "1.0.0"
+date-released: "2026-04-22"
+repository-code: "https://github.com/[USERNAME]/[REPOSITORY]"
+url: "https://github.com/[USERNAME]/[REPOSITORY]"
+doi: "10.5281/zenodo.[ADD_DOI]"
+license: "MIT"
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Ortiz Núñez"
+      given-names: "Roelvis"
+    - family-names: "Santa Álvarez"
+      given-names: "J. S."
+  title: "Altmetric visibility across access pathways and citation relationships in Cuban social sciences"
+  version: "1.0.0"
+  date-released: "2026-04-22"
+  repository-code: "https://github.com/[USERNAME]/[REPOSITORY]"
+  url: "https://github.com/[USERNAME]/[REPOSITORY]"
+  doi: "10.5281/zenodo.[ADD_DOI]"
