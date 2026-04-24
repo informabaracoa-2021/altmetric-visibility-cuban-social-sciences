@@ -218,7 +218,7 @@ If you use this repository, please cite the archived release indicated in `CITAT
 
 Example placeholder:
 
-> Ortiz Núñez, R., & Santa Álvarez, J. S. (2026). *Altmetric visibility across access pathways and citation relationships in Cuban social sciences* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/xx.xxxx/zenodo.xxxxxxx
+> Ortiz Núñez, R., & Santa Álvarez, J. S. (2026). Altmetric visibility across access pathways and citation relationships in Cuban social sciences (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.19719267
 
  License
 
